@@ -1,0 +1,122 @@
+IGNORE_ON                 : 1
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!CEP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+<begindischarge>
+NAME                      : RIO GUARAQUECABA
+DESCRIPTION               : Média mensal
+COORD_X                   : -48.3074 
+COORD_Y                   : -25.2328 
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 1.0
+
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/PR_CEP_Rio_Guaraquecaba.dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : ºC
+DESCRIPTION               : Enter a short description
+FILENAME                  : ../GeneralData/BoundaryConditions/SerieMensalQld.dat
+TIME_SERIE_COLUMN         : 3
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : RIO NHUNDIAQUARA
+DESCRIPTION               : Média mensal
+COORD_X                   : -48.7652 
+COORD_Y                   : -25.4795
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 1.0
+
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/PR_CEP_Rio_Nhundiaquara.dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : ºC
+DESCRIPTION               : Enter a short description
+FILENAME                  : ../GeneralData/BoundaryConditions/SerieMensalQld.dat
+TIME_SERIE_COLUMN         : 3
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : RIO SERRA NEGRA
+DESCRIPTION               : Média mensal
+COORD_X                   : -48.4263 
+COORD_Y                   : -25.2149 
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 1.0
+
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/PR_CEP_Rio_Serra_Negra.dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : ºC
+DESCRIPTION               : Enter a short description
+FILENAME                  : ../GeneralData/BoundaryConditions/SerieMensalQld.dat
+TIME_SERIE_COLUMN         : 3
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : RIO FAISQUEIRA
+DESCRIPTION               : Média mensal
+COORD_X                   : -48.6452  
+COORD_Y                   : -25.3651
+DISCHARGE_UNIFORM         : 1
+
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/PR_CEP_Rio_Faisqueira.dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : ºC
+DESCRIPTION               : Enter a short description
+FILENAME                  : ../GeneralData/BoundaryConditions/SerieMensalQld.dat
+TIME_SERIE_COLUMN         : 3
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : RIO CACHOEIRA
+DESCRIPTION               : Média mensal
+COORD_X                   :-48.7552 
+COORD_Y                   : -25.3485
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 1.0
+
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/PR_CEP_Rio_Cachoeira.dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : ºC
+DESCRIPTION               : Enter a short description
+FILENAME                  : ../GeneralData/BoundaryConditions/SerieMensalQld.dat
+TIME_SERIE_COLUMN         : 3
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : RIO GUARAGUACU
+DESCRIPTION               : Média mensal
+COORD_X                   : -48.4907
+COORD_Y                   : -25.6151
+DISCHARGE_UNIFORM         : 1
+
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/PR_CEP_Rio_Guaraguacu.dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : ºC
+DESCRIPTION               : Enter a short description
+FILENAME                  : ../GeneralData/BoundaryConditions/SerieMensalQld.dat
+TIME_SERIE_COLUMN         : 3
+<<endproperty>>
+<enddischarge>
