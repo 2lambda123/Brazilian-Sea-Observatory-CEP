@@ -24,8 +24,8 @@ ATM_PERIOD                : 86400
 !Connect pressure forcing slowly for the prescribe period of time
 !ATM_PERIOD keyword is used only in te spin-up run. remove it to continued the calculus from the spin-up run
 
-!BIHARMONIC                : 1
-!BIHARMONIC_COEF           : 1e07
+BIHARMONIC                : 1
+BIHARMONIC_COEF           : 1e05
 
 DATA_ASSIMILATION         : 1
 BRFORCE                   : 1
@@ -50,7 +50,7 @@ OBSTACLE                   : 1
 <begin_dragcoef>
 NAME                      : obstacle drag coefficient
 INITIALIZATION_METHOD     : ASCII_FILE
-FILENAME                  : ..\GeneralData\DigitalTerrain\GridData_CEP_Mangue_120m_v1_Drag_Mangrove_v1.dat
+FILENAME                  : ../GeneralData/DigitalTerrain/GridData_CEP_Mangue_120m_v1_Drag_Mangrove_v1.dat
 DEFAULTVALUE              : 0.
 TYPE_ZUV                  : z
 REMAIN_CONSTANT           : 1

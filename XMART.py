@@ -249,8 +249,8 @@ for run in range (0,number_of_runs):
     
     #Run
     os.chdir(exe_dir)
-    output = subprocess.call(["run_MPI.bat"])
-    #output = subprocess.call([exe_dir+"/run.sh"])
+    #output = subprocess.call(["run_MPI.bat"])
+    output = subprocess.call([exe_dir+"/run.sh"])
     
     if not ("Program Mohid Water successfully terminated") in open(mohid_log, encoding='latin-1').read():
         msg = "Message from XMART: model " + model_name + "\nProgram Mohid Water was not successfully terminated for " + str(next_start_date.strftime("%Y%m%d"))
